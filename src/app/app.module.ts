@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './components/contact/contact.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { WorkComponent } from './components/work/work.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -15,14 +17,16 @@ import { WorkComponent } from './components/work/work.component';
     MainViewComponent,
     ContactComponent,
     SkillsComponent,
-    WorkComponent
+    WorkComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSidenavModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

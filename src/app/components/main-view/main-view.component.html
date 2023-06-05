@@ -1,1 +1,14 @@
-<p>main-view works!</p>
+<mat-sidenav-container class="nav-container">
+  <mat-sidenav class="side-nav" mode="side" opened>
+    <a>Me</a>
+    <a>My Work</a>
+    <a>What I Know</a>
+    <a>Contact Me</a>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-about class="content"></app-about>
+    <app-work class="content"></app-work>
+    <app-skills class="content"></app-skills>
+    <app-contact class="content"></app-contact>
+  </mat-sidenav-content>
+</mat-sidenav-container>

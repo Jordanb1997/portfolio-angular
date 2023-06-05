@@ -1,0 +1,9 @@
+.nav-container{
+  height:100%;
+}
+
+.side-nav{
+  display: flex;
+  flex-direction: column;
+}
+
